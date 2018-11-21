@@ -318,14 +318,9 @@ button.sub{
 h2.boxheadings{
     font-size:30px;
 }
-        input.subtext, input.emailtext {
-    background-color: #212121;
-    padding: 14px!important;
-    margin-top: 15px!important;
-    margin-bottom: 15px!important;
-    font-size: 25px;
-    color: #f2f2f2;
-    border: 2px solid #636363;
+img.image-row {
+    height: 362px;
+    width: 100%;
 }
 }
 
@@ -379,5 +374,8 @@ h2.boxheadings{
     padding-top:20px;
     font-size:16px;
 }
-
+img.image-row {
+    height: 100%;
+    width: 100%;
+}
 }

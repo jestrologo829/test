@@ -340,13 +340,13 @@ h3.alignment.margin{
     margin-right:10px!important;
 }
 input.subtext, input.emailtext{
-    padding:1px;
+    padding:1px!important;
 }
 input.emailtext{
-    margin-left:0px;
-    margin-right:0px;
-    margin-top:10px;
-    margin-bottom:10px;
+    margin-left:0px!important;
+    margin-right:0px!important;
+    margin-top:10px!important;
+    margin-bottom:10px!important;
 }
 button.sub{
     font-size:17px;
@@ -355,4 +355,9 @@ button.sub{
 .row.footerform-row{
     width:100%;
 }
+h2.boxheadings{
+    margin-top:0px;
+    padding-top:20px;
+}
+
 }

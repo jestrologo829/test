@@ -312,7 +312,7 @@ input[type="text"] {
 
 
 /*------------------------------------
-IPAD + MOBILE
+MOBILE
 --------------------------------------*/
 
 @media only screen and (max-width:480px) {
@@ -321,5 +321,11 @@ IPAD + MOBILE
     max-width: 100%;
     display: block;
     align-items: flex-end;
+}
+.featured-properties{
+    display:block;
+}
+button.readmore{
+    margin-bottom: 20px;
 }
 }

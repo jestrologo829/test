@@ -336,7 +336,12 @@ h3.alignment.margin{
     display:block!important;
 }
 .row.Subscribe-row{    
-    margin-left:10px;
-    margin-right:10px;
+    margin-left:10px!important;
+    margin-right:10px!important;
 }
+input.subtext, input.emailtext{
+    padding:1px;
+}
+    
+    
 }

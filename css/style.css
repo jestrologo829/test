@@ -311,6 +311,9 @@ input[type="text"] {
     display: block;
     align-items: above;
 }
+button.sub{
+    margin-top:20px;
+}    
 }
 
 
@@ -362,7 +365,5 @@ h2.boxheadings{
     margin-top:0px;
     padding-top:20px;
 }
-button.sub{
-    margin-top:20px;
-}    
+
 }

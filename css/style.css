@@ -93,7 +93,10 @@ h3.alignment,
 h3.centeralign{
     text-align:center;
 }
- 
+
+p.alignment{
+    margin:20px;   
+}
 h3.alignment.margin{
     margin-top:60px;
     margin-bottom:60px;

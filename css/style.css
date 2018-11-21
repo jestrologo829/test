@@ -314,6 +314,9 @@ input[type="text"] {
 button.sub{
     margin-top:20px!important;
 }    
+h2.boxheadings{
+    font-size:30px;
+}    
 }
 
 
@@ -364,6 +367,7 @@ button.sub{
 h2.boxheadings{
     margin-top:0px;
     padding-top:20px;
+    font-size:16px;
 }
 
 }

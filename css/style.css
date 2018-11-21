@@ -92,6 +92,8 @@ p.alignment,
 h3.alignment,
 h3.centeralign{
     text-align: center
+    margin-left:10px;
+    margin-right:10px;    
 }
  
 h3.alignment.margin{

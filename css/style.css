@@ -354,6 +354,7 @@ input.emailtext{
 button.sub{
     font-size:17px;
     padding:10px;
+    margin-top:5px;
 }
 .row.footerform-row{
     width:100%;
@@ -361,6 +362,5 @@ button.sub{
 h2.boxheadings{
     margin-top:0px;
     padding-top:20px;
-}
-
+}    
 }

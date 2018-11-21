@@ -319,9 +319,10 @@ h2.boxheadings{
     font-size:30px;
 }
 img.image-row {
-    height: 362px;
+    height: 362px!important;
     width: 100%;
 }
+    
 }
 
 

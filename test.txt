@@ -1,0 +1,15 @@
+Web dev test and instructions below:
+
+Please recreate the link below:
+
+https://xd.adobe.com/view/a3bfd0b3-976b-4306-853f-3ef3a17fe9a0
+
+Instructions:
+
+Create the demo landing page in html, css, javascript
+Can use other images and icons 
+Must be adaptive and responsive to browsers, tablets, mobile. Will be checked through google chrome
+Upload files to git 
+Create github page
+Share link to us for checking. 
+Deadline is 3 days after.

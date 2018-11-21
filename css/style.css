@@ -1,0 +1,311 @@
+
+body, html {
+    height: 100%;
+    margin:0;
+}
+
+/* The hero image */
+.jumbotron.text-center {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/fm=f_1255.jpg");
+
+    /* Set a specific height */
+    height: 100%;
+
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1.herotoptext {
+    color: #ffffff;
+    text-align: left;
+
+}
+
+.jumbotron .container {
+    max-width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+/*For hero*/
+.formdivhero {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+img.logoimgs {
+    float: left;
+    margin-left: 50px;
+}
+
+/*Box images height and width*/
+
+img.image-row{
+    height:100%;
+    width:100%;
+}
+
+h1.Heading-underhero {
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+h1.Heading-underhero.Featured {
+    margin-bottom: 80px;
+}
+h2.boxheadings{
+    text-align: center
+}
+
+.col-sm-4.box2cols {
+    text-align: center;
+}
+
+.lineunderheadings{
+    width:40%;
+    height:3px;
+    border:none;
+    color:#8a8a8a;
+    background-color:#8a8a8a;
+}
+
+button.readmore {
+    background-color: #1a3865;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    float: none;
+    margin-top: 20px
+
+}
+
+
+p.alignment,
+h3.alignment,
+h3.centeralign{
+    text-align: center
+}
+ 
+h3.alignment.margin{
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+.col-sm-4 {
+    padding: 0px;
+}
+
+
+
+h1{
+    font-size: 50px;
+}
+
+
+.featured-properties {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+}
+
+/*ABOUT US Section*/
+
+.about-box{
+    text-align:center;
+}
+
+.about-container {
+    background-color: #e3e3e3;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+/*Subscribe Section*/
+
+h1.alignment-left{
+    text-align:left;
+}
+
+h1.Heading-underhero-Subscribe{
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 80px;
+    font-size:40px;
+    font-weight:900;
+    color:#ffffff;
+}
+
+.Subscribe-container {
+    background-color: #212121;
+}
+
+h3.alignment-left.margin.Subscribe {
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.Subscribe-container {
+    padding-bottom: 130px;
+    padding-top: 60px;
+}
+
+
+
+
+
+/*form filed*/
+
+input.subtext,
+input.emailtext {
+    background-color: #212121;
+    padding: 15px;
+    font-size: 25px;
+    color: #f2f2f2;
+    border: 2px solid #636363;
+}
+input.emailtext {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+button.sub {
+    font-size: 20px;
+    background-color: #ffe94f;
+    padding: 20px;
+    border: none;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #cccccc;
+}
+
+
+/*Form section*/
+
+.footerform-container {
+    background-image: url(../images/fm=f_WbAJ3x8.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+/*footer*/
+.last-container {
+    background-color: #1a3865;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+
+.footertext{
+    color:#ffffff;
+}
+
+.footerlink{
+    color:#ffffff;
+}
+
+a:hover, a:focus {
+    color: #ffe94f;
+    text-decoration: none;
+}
+
+img.logoimg {
+    background-color: #ffffff;
+}
+
+.formdiv {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+
+.row.footerform-row {
+    width: 50%;
+    float: none;
+    margin: auto;
+}
+
+input.formtexts {
+    width: 99%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+input.formtexts2, input.formtexts3 {
+    width: 49%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+input.formarea {
+    width: 99%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+}
+/*------------------------------------
+IPAD + MOBILE
+--------------------------------------*/
+
+@media only screen and (max-width:768px) {
+
+.featured-properties {
+    display: block;
+
+}
+button.readmore {
+
+    margin-bottom: 20px
+
+}
+
+.row.Subscribe-row {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+input.emailtext {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+button.sub,
+input.emailtext,
+input[type="text"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.row.footerform-row {
+    width: 100%;
+    float: none;
+    margin: auto;
+}
+.jumbotron .container {
+    max-width: 100%;
+    display: block;
+    align-items: above;
+}
+}

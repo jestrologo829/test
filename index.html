@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Dev Test</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<form method="POST" id="testform">
+  <div class="jumbotron text-center">
+
+    <div class="col-sm-12">
+        <img class="logoimgs" src="images/logo2.png">
+    </div>     
+
+    <div class="container">
+      <div class="col-sm-6 cols1">
+        <h1 class="herotoptext">Lorem Ipsum<br>Dolor Sit Amet</h1>
+      </div>
+      <div class="col-sm-6">
+        <div class="formdivhero">
+          <h4> Contact us for more information</h4><br>
+          <input class="formtexts" type="text" id="name" name="name" placeholder="Name"><br>
+          <input class="formtexts2" type="text" id="email" name="email" placeholder="Email">
+          <input class="formtexts3" type="text" id="number" name="number" placeholder="Number"><br>
+          <input class="formtexts" type="text" placeholder="Size requirement (optional)"><br>
+          <input class="formtexts" type="text" placeholder="Location requirement (optional)"><br>
+          <input class="formarea" type="text" placeholder="Additional message"><br>
+          <button class="readmore" type="submit" onclick="return checkvalue();">READ MORE</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <h1 class="Heading-underhero Featured">Featured properties</h1>
+        <div class="featured-properties d-flex align-items-stretch ">
+          <div class="col-sm-4">
+            <img class="image-row" src="images/imagerow1.jpg">
+          </div>
+          <div class="col-sm-4 box2cols">
+            <div class="box2">
+             <h2 class="boxheadings">Insular Life Building<br>Makati</h2><hr class="lineunderheadings" size="10px">
+             <p class="alignment">Ut vitae leo vitae libero elementum sodales sed vel ante. Eyiam laoreet, velit id consequat euismod, ex nibh maximus magna, ac malesuada enim turpis sit amet risus.</p>
+             <button class="readmore" type="button">READ MORE</button>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <img class="image-row" src="images/imagerow2.jpg">
+          </div>
+        </div> 
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="featured-properties">
+        <div class="col-sm-4 box2cols">
+          <div class="box2">
+             <h2 class="boxheadings">ArhtaLand Century<br>Pacific Tower</h2><hr class="lineunderheadings" size="10px">
+             <p class="alignment">Ut vitae leo vitae libero elementum sodales sed vel ante. Eyiam laoreet, velit id consequat euismod, ex nibh maximus magna, ac malesuada enim turpis sit amet risus.</p>
+             <button class="readmore" type="button">READ MORE</button>
+          </div>
+        </div> 
+
+        <div class="col-sm-4">
+          <img class="image-row" src="images/imagerow3.jpg">
+        </div>
+
+        <div class="col-sm-4 box2cols">
+          <div class="box2">
+             <h2 class="boxheadings">JEG Tower @ One Acacia</h2><hr class="lineunderheadings" size="10px">
+             <p class="alignment">Ut vitae leo vitae libero elementum sodales sed vel ante. Eyiam laoreet, velit id consequat euismod, ex nibh maximus magna, ac malesuada enim turpis sit amet risus.</p>
+             <button class="readmore" type="button">READ MORE</button>
+          </div>
+        </div> 
+
+      </div>
+    </div>
+  </div>
+
+  <div class="about-container">
+   <div class="container">
+    <div class="row about-row">
+      <h1 class="Heading-underhero">About Us</h1>
+      <h3 class="alignment margin">Ut vitae leo vitae libero elementum sodales sed vel ante. Eyiam laoreet, velit id consequat euismod, ex nibh maximus magna, ac malesuada enim turpis sit amet risus. Praesent id malesuada lectus, vel gravida dolor. Vivamus mattis sem libero, ac rutrum orci varius non.</h3>
+          <div class="col-sm-3 about-box">
+            <img src="images/b1.jpg">
+            <h3 class="centeralign">Tenant<br>Representation</h3>
+          </div>
+
+          <div class="col-sm-3 about-box">
+            <img src="images/b2.jpg">
+            <h3 class="centeralign">Landlord<br>Representation</h3>
+          </div>
+
+          <div class="col-sm-3 about-box">
+            <img src="images/b3.jpg">
+            <h3 class="centeralign">Capital Markets /<br>Investments</h3>
+          </div>
+
+          <div class="col-sm-3 about-box">
+            <img src="images/b4.jpg">
+            <h3 class="centeralign">Research &<br>Consultancy</h3>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Subscribe-container">
+    <div class="container">
+      <div class="row Subscribe-row">
+        <h1 class="Heading-underhero-Subscribe">Subscribe to our newsletter</h1>
+        <h3 class="alignment-left margin Subscribe">Ut vitae leo vitae libero elementum sodales sed vel ante. Eyiam laoreet, velit id consequat euismod, ex nibh maximus magna, ac malesuada enim turpis sit amet risus. Praesent id malesuada lectus, vel gravida dolor. Vivamus mattis sem libero, ac rutrum orci varius non.</h3>
+        <input class="subtext" type="text" placeholder="Name">
+        <input class="emailtext" type="text" placeholder="Email">
+        <button class="sub" type="button">SUBSCRIBE!</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="footerform-container">
+    <div class="container">
+      <div class="row footerform-row">
+        <div class="formdiv">
+          <h4> Contact us for more information</h4><br>
+          <input class="formtexts" type="text" id="name" name="name" placeholder="Name"><br>
+          <input class="formtexts2" type="text" id="email" name="email" placeholder="Email">
+          <input class="formtexts3" type="text" id="number" name="number" placeholder="Number"><br>
+          <input class="formtexts" type="text" placeholder="Size requirement (optional)"><br>
+          <input class="formtexts" type="text" placeholder="Location requirement (optional)"><br>
+          <input class="formarea" type="text"  placeholder="Additional message"><br>
+          <button class="readmore" type="submit" onclick="return checkvalue();">READ MORE</button>
+        </div>
+      </div>
+    </div>
+   </div>
+
+   <div class="last-container">
+    <div class="container">
+      <div class="row last-row">
+        <img class="logoimg" src="images/logo2.png">
+        <h3 class="footertext"><a class="footerlink" href="https://kmcmaggroup.com/">kmcmaggroup.com</a></h3>
+      </div>
+    </div>
+   </div>
+</form>
+</body>
+</html>
+
+<script>
+function checkvalue()
+{
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var number = document.getElementById('number').value;
+
+    if(name == "")
+      {
+        alert('Please type your Name');
+        return false;
+      }
+
+    if(email == "")
+      {
+        alert('Please type your Email');
+        return false;
+      }
+
+    if(number == "")
+      {
+        alert('Please type your Number');
+        return false;
+      }
+
+    else
+      {
+        document.getElementById('testform').submit();
+      }
+}
+</script>

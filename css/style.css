@@ -120,6 +120,8 @@ h1{
 
 .about-box{
     text-align:center;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 .about-container {
@@ -128,10 +130,7 @@ h1{
     padding-bottom: 60px;
 }
 
-.box2{
-    margin-left:10px!important;
-    margin-right:10px!important;
-}
+
 /*Subscribe Section*/
 
 h1.alignment-left{

@@ -309,3 +309,17 @@ input[type="text"] {
     align-items: above;
 }
 }
+
+
+/*------------------------------------
+IPAD + MOBILE
+--------------------------------------*/
+
+@media only screen and (max-width:480px) {
+
+.jumbotron .container {
+    max-width: 100%;
+    display: block;
+    align-items: flex-end;
+}
+}

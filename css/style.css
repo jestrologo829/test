@@ -342,6 +342,17 @@ h3.alignment.margin{
 input.subtext, input.emailtext{
     padding:1px;
 }
-    
-    
+input.emailtext{
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+button.sub{
+    font-size:17px;
+    padding:10px;
+}
+.row.footerform-row{
+    width:100%;
+}
 }

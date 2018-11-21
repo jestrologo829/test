@@ -278,15 +278,7 @@ IPAD + MOBILE
     display: block;
 
 }
-    input.subtext, input.emailtext {
-    background-color: #212121;
-    padding: 14px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 25px;
-    color: #f2f2f2;
-    border: 2px solid #636363;
-}
+
 button.readmore {
 
     margin-bottom: 20px
@@ -325,7 +317,16 @@ button.sub{
 }    
 h2.boxheadings{
     font-size:30px;
-}    
+}
+        input.subtext, input.emailtext {
+    background-color: #212121;
+    padding: 14px!important;
+    margin-top: 15px!important;
+    margin-bottom: 15px!important;
+    font-size: 25px;
+    color: #f2f2f2;
+    border: 2px solid #636363;
+}
 }
 
 
